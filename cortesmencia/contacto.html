@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="header">
+
+    </header>
+    <main>
+        <div class="content">
+            <div id="content-int" class="container contact">
+                <div class="parent-of-one" id="msg"></div>
+                <h1>Contacto</h1>
+                <div class="parent-of-two">
+                    <div>
+                        <label for="name" id="nameLabel">Nombre</label>
+                        <input name="name" required type="text" id="name" placeholder="Tu nombre">
+                    </div>
+                    <div>
+                        <label for="mailAdress" id="labelMail">Correo electrónico</label>
+                        <input name="mailAdress" required type="email" id="mailAdress" placeholder="Tu correo electrónico">
+                    </div>
+                </div>
+                <div class="parent-of-one">
+                    <label for="message" id="labelMessage">Mensaje</label>
+                    <textarea required placeholder="Escribe tu mensaje" name="message" id="message" cols="30" rows="5"></textarea>
+                </div>
+                <div style="display: flex;justify-content: end;">
+                    <button id="sendMail" class="btn" type="submit">
+                        Enviar
+                    </button>
+                </div>
+                <div>
+                    <p>cortesmencia@cortesmencia.art</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- Redes -->
+    </footer>
+    <script src="index.js"></script>
+    <script src="contacto.js"></script>
+</body>
+
+</html>
